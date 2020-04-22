@@ -93,12 +93,10 @@ Os formulários de compras precisam ter os seguintes campos:
 	- Feminino
 ```
 
-Após a finalização do pedido, você deverá 1 array de cada categoria.
-
 A tela terá uma mensagem de sucesso: "Obrigado por comprar com a gente!" e abaixo uma lista de todos os produtos, independentemente das categorias, em ordem alfabética. Além disso, precisará mostrar o NOME do cliente que comprou este produto.
 
 ## Observações
 
-A lista dos produtos precisa estar toda num arquivo JSON, onde você importará no template e fará o necessário.
+A lista dos produtos precisa estar toda num arquivo JSON, onde você irá importar no template para desenvolver.
 
 A forma como você vai montar e onde você irá colocar esse JSON fica à seu critério.
