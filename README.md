@@ -28,11 +28,11 @@
 
 Abaixo, material de apoio para dar suporte na criação do aplicativo.
 
-https://bradfrost.com/blog/post/atomic-web-design/
-https://medium.com/better-programming/kiss-dry-and-code-principles-every-developer-should-follow-b77d89f51d74
-https://medium.com/better-programming/most-useful-javascript-methods-355139f96d75
-https://vuex.vuejs.org/
-https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
+- https://bradfrost.com/blog/post/atomic-web-design/
+- https://medium.com/better-programming/kiss-dry-and-code-principles-every-developer-should-follow-b77d89f51d74
+- https://medium.com/better-programming/most-useful-javascript-methods-355139f96d75
+- https://vuex.vuejs.org/
+- https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow
 
 A forma com que o dev vai aplicar os conhecimentos destes conteúdos também será avaliada.
 
