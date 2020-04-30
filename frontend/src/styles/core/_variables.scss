@@ -1,0 +1,16 @@
+$namespace: "shop";
+
+$white: #FFFFFF;
+$black: #000000;
+
+
+$mq: (
+  'mobile': 320px,
+  'large-mobile': 500px,
+  'tablet': 768px,
+  'laptop': 1024px,
+  'min-desktop': 1280px,
+  'desktop': 1440px,
+  'hd-desktop': 1900px,
+  'large-desktop': 2000px
+);

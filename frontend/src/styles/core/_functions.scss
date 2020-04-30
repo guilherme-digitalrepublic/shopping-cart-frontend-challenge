@@ -1,0 +1,3 @@
+@function mq($mq-value) {
+    @return map-get($mq, $mq-value);
+}
