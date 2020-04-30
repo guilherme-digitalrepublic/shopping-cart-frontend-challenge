@@ -1,4 +1,21 @@
-*, body {
+body, html {
   margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  // font-family: $RobotoRg;
 }
 
+.space-page {
+  padding: 0 10%;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
