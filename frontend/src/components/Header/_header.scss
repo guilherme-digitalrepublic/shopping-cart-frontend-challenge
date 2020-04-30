@@ -1,12 +1,12 @@
-.shop-header {
+.#{$namespace}-header {
   height: 90px;
   background-color:rgba(0, 0, 0, .8);
   display: flex;
+  justify-content: space-between;
   align-items: center;
   padding: 0 30px;
-}
-
-.shop-header__logo {
-  height: 60px;
-  width: 60px;
+  &__logo {
+    height: 60px;
+    width: 60px;
+  }
 }

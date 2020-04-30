@@ -1,5 +1,5 @@
 <script>
-import Header from './components/Header/index.vue'
+import Header from '../components/Header/header.vue'
 
 export default {
   name: 'App',
@@ -8,10 +8,6 @@ export default {
   }
 }
 </script>
-
-<style>
-@import "./styles/_index.scss";
-</style>
 
 <template>
   <Header></Header>
