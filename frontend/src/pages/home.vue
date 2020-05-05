@@ -1,14 +1,19 @@
 <script>
 import Header from '@/components/Header/header.vue'
+import Footer from '@/components/Footer/footer.vue'
 
 export default {
   name: 'App',
   components: {
-    Header
+    Header,
+    Footer
   }
 }
 </script>
 
 <template>
-  <Header></Header>
+  <main>
+    <Header></Header>
+    <Footer></Footer>
+  </main>
 </template>
