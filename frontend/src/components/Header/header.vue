@@ -8,7 +8,7 @@
     </div>
     <div class="shop-header__menu-cart">
       <div class="shop-header__container-cart">
-          <div class="shop-header__total-value"></div>
+          <p class="shop-header__total-value"></p>
           <button class="shop-header__finish"></button>
       </div>
     </div>

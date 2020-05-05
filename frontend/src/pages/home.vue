@@ -1,5 +1,5 @@
 <script>
-import Header from '../components/Header/header.vue'
+import Header from '@/components/Header/header.vue'
 
 export default {
   name: 'App',

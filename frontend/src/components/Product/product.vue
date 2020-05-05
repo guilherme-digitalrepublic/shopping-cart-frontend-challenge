@@ -1,8 +1,8 @@
 <template>
   <div class="shop-product">
     <img class="shop-product__image">
-    <div class="shop-product__name"></div>
-    <div class="shop-product__price"></div>
+    <p class="shop-product__name"></p>
+    <p class="shop-product__price"></p>
     <button class="shop-product__add"></button>
     <button class="shop-product__delet"></button>
   </div>
