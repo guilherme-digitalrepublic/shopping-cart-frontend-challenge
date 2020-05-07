@@ -1,0 +1,17 @@
+.#{$namespace}-banner {
+  background: $banner-gradient; 
+  padding: 11em 10%;
+
+  &__title-name {
+    font-size: 1.8em;
+    display: block;
+    margin-bottom: .8em;
+  }
+
+  &__title {
+    margin: 0;
+    text-align: center;
+    color: $white;
+    font-size: 1.5em;
+  }
+}
