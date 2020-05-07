@@ -12,10 +12,14 @@
       <form class="shop-filter__price-form">
         <fieldset class="shop-filter__fieldset">
           <div class="shop-filter__price-column">
-            <label class="shop-filter__label" for="min_price"><input class="shop-filter__value" type="number" id="min_input" placeholder="Mínimo" value=""></label>
+            <label class="shop-filter__label" for="min_price">
+              <input class="shop-filter__value" type="number" id="min_input" placeholder="Mínimo" value="">
+            </label>
           </div>
           <div class="shop-filter__price-column" method="post" id="priceForm">
-            <label class="shop-filter__label" for="max_price"><input class="shop-filter__value" type="number" id="max_input" placeholder="Máximo" value=""></label>
+            <label class="shop-filter__label" for="max_price">
+              <input class="shop-filter__value" type="number" id="max_input" placeholder="Máximo" value="">
+            </label>
           </div>
         </fieldset>
         <button type="submit" class="shop-filter__price-button" value=""></button>

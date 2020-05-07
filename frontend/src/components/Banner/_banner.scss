@@ -2,16 +2,17 @@
   background: $banner-gradient; 
   padding: 11em 4.33%;
 
-  &__title-name {
-    font-size: 1.8em;
-    display: block;
+  &__title {
+    font-size: 2em;
     margin-bottom: .8em;
+    color: $white;
+    text-align: center;
   }
 
-  &__title {
+  &__sub-title {
     margin: 0;
     text-align: center;
     color: $white;
-    font-size: 1.5em;
+    font-size: 1.4em;
   }
 }

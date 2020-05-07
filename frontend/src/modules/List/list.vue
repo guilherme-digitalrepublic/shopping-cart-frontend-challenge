@@ -1,20 +1,20 @@
 <script>
 import Product from '@/components/Product/product.vue'
-import Filter from '@/components/Filter/filter.vue'
+import Filters from '@/components/Filter/filter.vue'
 
 export default {
   name: 'List',
   components: {
     Product,
-    Filter
+    Filters,
   }
 }
 </script>
 
 <template>
-  <section class="shop-product-list">
+  <section class="shop-product-list space-page">
     <div class="shop-product-list__container">
-      <Filter></Filter>
+      <Filters></Filters>
       <Product></Product>
     </div>
   </section>
