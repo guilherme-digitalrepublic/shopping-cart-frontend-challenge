@@ -1,3 +1,9 @@
+<script>
+export default {
+  
+}
+</script>
+
 <template>
   <div class="shop-product">
     <img class="shop-product__image">
@@ -7,9 +13,3 @@
     <button class="shop-product__delet"></button>
   </div>
 </template>
-
-<script>
-export default {
-  
-}
-</script>
