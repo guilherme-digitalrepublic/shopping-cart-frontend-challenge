@@ -14,8 +14,8 @@ export default {
 <template>
   <section class="shop-product-list">
     <div class="shop-product-list__container">
-      <Product></Product>
       <Filter></Filter>
+      <Product></Product>
     </div>
   </section>
 </template>
