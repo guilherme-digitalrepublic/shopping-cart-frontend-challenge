@@ -1,5 +1,5 @@
 <template>
-  <nav class="shop-header">
+  <header class="shop-header">
     <div class="shop-header__wrapper space-page">
       <img class="shop-header__logo" src="@/assets/icon/shop-logo.svg">
       <div class="shop-header__cart">
@@ -12,5 +12,5 @@
           <button class="shop-header__finish"></button>
       </div>
     </div>
-  </nav>
+  </header>
 </template>

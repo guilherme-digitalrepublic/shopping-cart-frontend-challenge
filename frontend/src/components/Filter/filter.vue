@@ -1,5 +1,5 @@
 <template>
-  <section class="shop-filter">
+  <aside class="shop-filter">
     <dl class="shop-filter__category">
       <dt class="shop-filter__title">Categorias</dt>
       <dd class="shop-filter__option"><h3><a href="#" title="Todos">Todos</a></h3></dd>
@@ -21,5 +21,5 @@
         <button type="submit" class="shop-filter__price-button" value=""></button>
       </form>
     </dl>
-  </section>
+  </aside>
 </template>

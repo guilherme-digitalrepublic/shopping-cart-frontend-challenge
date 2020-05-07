@@ -1,12 +1,14 @@
 <script>
 import Header from '@/components/Header/header.vue'
 import Footer from '@/components/Footer/footer.vue'
+import List from '@/modules/List/list.vue'
 
 export default {
-  name: 'App',
+  name: 'Home',
   components: {
     Header,
-    Footer
+    Footer,
+    List
   }
 }
 </script>
@@ -14,6 +16,7 @@ export default {
 <template>
   <main>
     <Header></Header>
+    <List></List>
     <Footer></Footer>
   </main>
 </template>
