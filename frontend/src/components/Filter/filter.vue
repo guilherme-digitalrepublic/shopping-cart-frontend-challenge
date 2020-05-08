@@ -1,5 +1,5 @@
 <template>
-  <aside class="shop-filter">
+  <aside class="shop-filter space-page">
     <dl class="shop-filter__category">
       <dt class="shop-filter__title">Categorias</dt>
       <dd class="shop-filter__option"><h3><a href="#" title="Todos">Todos</a></h3></dd>
@@ -7,8 +7,8 @@
       <dd class="shop-filter__option"><h3><a href="#" title="Brinquedos">Brinquedos</a></h3></dd>
       <dd class="shop-filter__option"><h3><a href="#" title="Cama, Mesa e Banho">Cama, Mesa e Banho</a></h3></dd>
     </dl>
-    <dl class="shop-filter__price">
-      <dt class="shop-filter__title"></dt>
+    <dl class="shop-filter__category">
+      <dt class="shop-filter__title">Preço</dt>
       <form class="shop-filter__price-form">
         <fieldset class="shop-filter__fieldset">
           <div class="shop-filter__price-column">
@@ -22,7 +22,7 @@
             </label>
           </div>
         </fieldset>
-        <button type="submit" class="shop-filter__price-button" value=""></button>
+        <button type="submit" class="shop-filter__price-button" value=""><img src="@/assets/icon/arrow.svg"></button>
       </form>
     </dl>
   </aside>
