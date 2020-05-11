@@ -1,3 +1,28 @@
 .#{$namespace}-product-list {
   position: relative;
+  margin:3.125em 0;
+
+  &__filter-button {
+    position: absolute;
+    width: 100%;
+    padding:1em 0;
+    display: flex;
+    left: 0;
+    top: -50px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    background: $pink-gradient;
+  }
+
+  &__filter-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 0.5em;
+  }
+
+  &__filter-name {
+    font-size: 1.2em;
+    color: $white;
+  }
 }

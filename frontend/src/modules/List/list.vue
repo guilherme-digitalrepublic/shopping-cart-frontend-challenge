@@ -14,6 +14,10 @@ export default {
 <template>
   <section class="shop-product-list space-page">
     <div class="shop-product-list__container">
+      <button class="shop-product-list__filter-button">
+        <img class="shop-product-list__filter-image" src="@/assets/icon/filter.svg">
+        <p class="shop-product-list__filter-name">Filter</p>
+      </button>
       <Filters></Filters>
       <Product></Product>
     </div>
