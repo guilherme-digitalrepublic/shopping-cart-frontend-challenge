@@ -7,6 +7,17 @@ export default {
   components: {
     Product,
     Filters,
+  },
+  data: function () {
+     return {
+       isActive: false,
+    }
+  },
+  methods: {
+    openFilter: function () {
+      this.isActive = !this.isActive;
+      this.isActive = true
+    }
   }
 }
 </script>
@@ -14,11 +25,11 @@ export default {
 <template>
   <section class="shop-product-list space-page">
     <div class="shop-product-list__container">
-      <button class="shop-product-list__filter-button">
+      <button class="shop-product-list__filter-button" @click="openFilter()">
         <img class="shop-product-list__filter-image" src="@/assets/icon/filter.svg">
-        <p class="shop-product-list__filter-name">Filter</p>
+        <p class="shop-product-list__filter-name">Filtro</p>
       </button>
-      <Filters></Filters>
+      <Filters :isActive="isActive"></Filters>
       <Product></Product>
     </div>
   </section>
