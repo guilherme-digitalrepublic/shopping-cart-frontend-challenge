@@ -14,9 +14,8 @@ export default {
     }
   },
   methods: {
-    openFilter: function () {
+    toggleFilter: function () {
       this.isActive = !this.isActive;
-      this.isActive = true
     }
   }
 }
@@ -25,11 +24,11 @@ export default {
 <template>
   <section class="shop-product-list space-page">
     <div class="shop-product-list__container">
-      <button class="shop-product-list__filter-button" @click="openFilter()">
+      <button class="shop-product-list__filter-button" @click="toggleFilter()">
         <img class="shop-product-list__filter-image" src="@/assets/icon/filter.svg">
         <p class="shop-product-list__filter-name">Filtro</p>
       </button>
-      <Filters :isActive="isActive"></Filters>
+      <Filters :isActive="isActive" :toggleFilter="toggleFilter"></Filters>
       <Product></Product>
     </div>
   </section>

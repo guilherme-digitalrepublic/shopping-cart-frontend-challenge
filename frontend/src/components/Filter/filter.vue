@@ -1,18 +1,12 @@
 <script>
 export default {
-  props: ['isActive'],
-  methods: {
-    closeFilter: function () {
-      this.isActive = !this.isActive;
-      this.isActive = false
-    }
-  }
+  props: ['isActive', 'toggleFilter'],
 }
 </script>
 
 <template>
   <aside class="shop-filter" v-bind:class="{ 'shop-filter--active':isActive }">
-    <button class="shop-filter__close-button" @click="closeFilter()">
+    <button class="shop-filter__close-button" @click="toggleFilter()">
       <span class="shop-filter__close shop-filter__close--top"></span>
       <span class="shop-filter__close"></span>
     </button>
