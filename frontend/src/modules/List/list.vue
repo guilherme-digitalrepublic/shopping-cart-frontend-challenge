@@ -1,6 +1,9 @@
 <script>
+// Components
 import Product from '@/components/Product/product.vue'
 import Filters from '@/components/Filter/filter.vue'
+
+import List from '@/helpers/products'
 
 export default {
   name: 'List',
@@ -11,13 +14,18 @@ export default {
   data: function () {
      return {
        isActive: false,
+       products: List.products,
     }
+  },
+  mounted () {
+    console.log(this.products)
   },
   methods: {
     toggleFilter: function () {
       this.isActive = !this.isActive;
     }
-  }
+  },
+  
 }
 </script>
 
@@ -29,7 +37,9 @@ export default {
         <p class="shop-product-list__filter-name">Filtro</p>
       </button>
       <Filters :isActive="isActive" :toggleFilter="toggleFilter"></Filters>
-      <Product></Product>
+      <div v-for="product in products" :key="product.name" >
+        <Product :img="product.img" :name="product.name" :price="product.price" ></Product>
+      </div>
     </div>
   </section>
 </template>
